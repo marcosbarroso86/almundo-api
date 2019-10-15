@@ -43,6 +43,17 @@
    
     - endpoint : http//localhost:3000/api/hotels
     
+  # Query Params
+  
+      name  string : 
+      stars int :
+      
+     - http://localhost:3000/api/hotels?name=lima
+      
+     - http://localhost:3000/api/hotels?stars=2
+      
+     - http://localhost:3000/api/hotels?name=lima&stars=4
+    
    
 
   
